@@ -2,7 +2,7 @@
 
 self.__uv$config = {
   prefix: '/service/', // Proxy endpoint prefix, update if your backend uses another route
-  bare: 'https://bare.yourdomain.com', // Use your own or public Bare instance
+  bare: 'https://tomp.app', // Use your own or public Bare instance
   encodeUrl: Ultraviolet.codec.xor.encode, // Default encoding (xor is standard)
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: '/uv/uv.handler.js', // Handler script path (see below)
